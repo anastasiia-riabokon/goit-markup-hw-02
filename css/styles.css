@@ -1,0 +1,124 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color:#434455;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    margin:0;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 700; 
+    letter-spacing: 0.03em;
+    color: #2e2f42;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.logo .blue-web{
+    color: #4d5ae5;
+}
+
+.studio-portf-cont a{
+    font-weight: 500;
+    color: #2e2f42;
+    text-decoration: none;
+    text-transform: none;
+    list-style-type: none;
+}
+
+.studio-portf-cont, .contacts, .info, .our-team, .portfolio{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.hover-link:hover{
+    color: #404bbf;
+}
+
+.contacts a{
+    color: currentColor;
+    text-decoration: none;
+    text-transform: none;
+    list-style-type: none;
+    font-style: normal;
+}
+
+.main-page{
+    background-color: #2e2f42;
+}
+
+.main-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    color: #fff;
+}
+
+.main-button{
+    padding: 16px 32px;
+    background-color: #4d5ae5;
+    color: #fff;
+    font-weight: 500;
+    
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.sub-page{
+    padding: 120px 156px 120px 156px;
+}
+
+.sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.main-page-team{
+    background-color: #f4f4fd;
+    padding: 120px 156px 120px 156px;
+}
+
+.name-item-team{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.prof-item{
+    text-align: center;
+}
+
+.bg-team{
+    background-color: #fff;
+    width: 264px;
+}
+
+.footer-page{
+    background-color: #2e2f42;
+    padding: 100px 156px 100px 156px;
+}
+.footer-text{
+    color: #f4f4fd;
+}
