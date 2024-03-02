@@ -1,11 +1,15 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     background-color: #fff;
     color:#434455;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     margin:0;
+}
+
+.header-page{
+    padding: 24px 156px;
 }
 
 .logo{
@@ -17,7 +21,6 @@ body{
     color: #2e2f42;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 0;
     
 }
 
@@ -73,7 +76,11 @@ body{
     cursor: pointer;
 }
 
-h2{
+.main-button:hover{
+    background-color: #404bbf;
+}
+
+.submain-title{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -83,7 +90,7 @@ h2{
 }
 
 .sub-page{
-    padding: 120px 156px 120px 156px;
+    padding: 120px 156px;
 }
 
 .sub-title{
@@ -95,7 +102,7 @@ h2{
 
 .main-page-team{
     background-color: #f4f4fd;
-    padding: 120px 156px 120px 156px;
+    padding: 120px 156px;
 }
 
 .name-item-team{
@@ -117,7 +124,7 @@ h2{
 
 .footer-page{
     background-color: #2e2f42;
-    padding: 100px 156px 100px 156px;
+    padding: 100px 156px;
 }
 .footer-text{
     color: #f4f4fd;
