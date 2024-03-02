@@ -6,10 +6,6 @@ body{
     line-height: 1.5;
 }
 
-/* .header-page{
-    padding: 24px 156px;
-} */
-
 .logo{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -32,11 +28,11 @@ body{
     text-decoration: none;
     text-transform: none;
     list-style-type: none;
+    letter-spacing: 0.02em;
 }
 
 .studio-portf-cont, .contacts, .info, .our-team, .portfolio{
     list-style-type: none;
-    /* padding: 0; */
 }
 
 
@@ -46,10 +42,12 @@ body{
 
 .contacts a{
     color: currentColor;
+    font-style: normal;
+    letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: none;
     list-style-type: none;
-    font-style: normal;
+    
 }
 
 .main-page{
@@ -66,7 +64,6 @@ body{
 }
 
 .main-button{
-    /* padding: 16px 32px; */
     background-color: #4d5ae5;
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -91,12 +88,13 @@ body{
 }
 
 .info-text{
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .main-page-team{
     background-color: #f4f4fd;
-    /* padding: 120px 156px; */
 }
 
 .name-item-team{
@@ -117,7 +115,6 @@ body{
 
 .bg-team{
     background-color: #fff;
-    /* width: 264px; */
 }
 
 .portf-title {
@@ -128,7 +125,6 @@ body{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    /* margin-bottom: 72px; */
 }
 
 .title-item{
@@ -140,18 +136,11 @@ body{
 }
 
 
-
-.text-portf{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-}
-
 .footer-page{
     background-color: #2e2f42;
-    /* padding: 100px 156px; */
 }
+
 .footer-text{
     color: #f4f4fd;
+    letter-spacing: 0.02em
 }
