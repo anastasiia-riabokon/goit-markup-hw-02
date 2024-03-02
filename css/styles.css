@@ -116,6 +116,7 @@ body{
 .prof-item{
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.5;
 }
 
 .bg-team{
@@ -147,5 +148,6 @@ body{
 
 .footer-text{
     color: #f4f4fd;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
